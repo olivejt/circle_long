@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*Css Document*/
+
+.main { width: 96%; height: auto; padding: 15px 0 0 0;}
+.title { padding: 15px 0;}
+.show { width: 49%; position: relative;}
+.showpic { width: 100%; margin-bottom: 7px; border-radius: 5px; max-height: 275px;}
+.brand2 { position: absolute; height: 18px; width: 18px; bottom: 15px; left: 4px; border-radius: 9px;}
+.show .fwhite { position: absolute; bottom: 16px; left: 26px;}
+.dotout { position: relative; margin-top: 5px;}
+.dotmid { position: absolute; left: 50%;}
+.dotin { position: relative; left: -50%;}
+.dot { width: 6px; height: 6px; border-radius: 3px; margin: 0px 3px;}
+
+.evedays { margin-top: 15px; }
+.line { width: 38%; height: 1px; margin-top: 6px;}
+.banner { position: relative; margin-top: 10px;}
+.banner .close { width: 20px; height: 20px; border-radius: 10px; position: absolute; right: 5px; top: 5px;}
+.banner .bannermid { position: absolute; left: 50%; top: 50%;}
+.banner p { position: relative; left: -50%; line-height: 25px; }
+.banner img { border-radius: 5px; }
+.onebrand { background-color: white; margin-top: 15px; border-radius: 5px; padding-bottom: 8px;}
+.onebrand .allpic { position: relative;}
+.onebrand .allpic .shadow { position: absolute; top: 0; left: 0;}
+.onebrand .allpic p { position: absolute; left: 5px; bottom: 10px;}
+.onebrand .showsign { margin-top: 10px; margin-right: 5px;}
+.brandtitle { height: 32px; width: 100%; padding: 9px 0;}
+.brandtitle .font14 { margin-top: 8px; }
+.brandtitle .font12 { margin-top: 8px; margin-right: 12px;}
+.brandlogo { width: 32px; height: 32px; margin-right: 5px; margin-left: 8px; border-radius: 16px; }/*每个每日品牌的logo大小*/
+.Fendishow { width: 100%;  }
+.oval { height: 12px; padding: 5px 12px 9px 12px; margin: 5px 0 0 8px; border-radius: 15px; border: 1px solid #ccc;}/*点赞评论椭圆框*/
+.oval * { vertical-align: middle;}
+.love_comment { width: 12px; height: 12px; margin-right: 5px;}/*点赞评论图片*/
+
+.cirfooter { height: 50px; width: 100%; background-color: white; margin-top: 20px; border-top: 1px solid #d8d8d8; position: fixed; bottom: -60px; }
+.cirfooter .addmid { position: absolute; left: 50%; }
+.cirfooter .addin { position: relative; left: -50%; margin-top: -5px; width: 45px; height: 45px; 
+					background-color: #ffd11b; border-radius: 23px; border: 1px solid white; line-height: 40px; text-align: center;}
+.cirfooter .fl { margin-left: 3%; margin-top: 5px;}
+.cirfooter .home { margin-right: 10%;}
+.cirfooter .fr { margin-right: 3%; margin-top: 5px;}
+.cirfooter .mine { margin-left: 10%;}
+
+.zarashowl { width: 66%; overflow: hidden;}
+.zarashowr { width: 32.5%; overflow: hidden;}
+
+
+.swipe { overflow: hidden; visibility: hidden; position: relative; }  
+.swipe-wrap { overflow: hidden; position: relative; }  
+.swipe-wrap > div { float: left; width: 100%; position: relative; } 
+.swipe-wrap-unit { margin: 10px; } 
+.slider { max-width: 960px; margin: 0px auto; }  
+
+.list-lookbook li { float: left; width: 31%; padding: 0px 0px 6px 6px; }
+.list-lookbook li.big { width: 64%; }
+.list-lookbook li span { display: block;width: 100%; padding-top: 100%; position: relative; overflow: hidden;background-size: cover;}

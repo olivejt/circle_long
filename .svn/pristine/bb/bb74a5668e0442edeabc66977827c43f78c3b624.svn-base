@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+<meta name="format-detection" content="telephone=no"/>
+<title>美力圈</title>   
+<link rel="stylesheet" type="text/css" href="css/reset.css"/>
+<link rel="stylesheet" type="text/css" href="css/circle.css"/>
+</head>
+<body>
+<div class="main mar_cen">
+	<p class="title font16 text_cen">美力圈</p>
+	<textarea  style="display:none" id="cirWrapTemp">
+		<div class="cl wrap"></div>
+	</textarea>
+	<textarea  style="display:none" id="cirTemp">
+		<div class="$cir_pos$ show">
+			<!--start of brand2-->
+			<img class="brand2 fl" src="$cir_logo$"/>
+			<p class="fl fwhite">$cir_name$</p>
+			<!--end of brand2-->
+			<img class="showpic" src="$cir_banner$"/>
+		</div>
+	</textarea>
+	<div id="slider" class="swipe slider" style="visibility:visible;">
+		<div class="swipe-wrap">
+			
+		</div>
+	</div>
+	<div class="dotout mar_cen cl">
+		<div class="dotmid">
+			<div class="dotin">
+				<textarea style="display:none" id="dotsTemp">
+					<div class="fl dot $colorClass$"></div>
+				</textarea>
+			</div>
+		</div>
+	</div>
+	<!--**************每日***************-->
+	<div class="text_cen cl evedays">
+		<div class="fl line bgccc"></div>
+		<span class="fccc">每日See</span>
+		<div class="fr line bgccc"></div>
+	</div>
+
+	<!--**************广告***************-->
+	<!--start of bannerTemplate 修改 15.03.23-->
+	<textarea style="display:none" id="bannerTemp">
+		<div id="banner" class="banner text_cen cl">
+			<a><div id="close" class="close font18 fwbold text_cen displayblock">x</div></a>
+			<!--start of text-->
+			<!-- <div class="bannermid"><div class="bannerin"><p class="fwhite"><span class="font18 fwbold">说走,就走</span><br />
+			<span class="font14">春季踏青搭配活动开始</span></p></div></div> -->
+			<!--end of text-->
+			<img class="Fendishow" src="$banner_image$"/>
+		</div>
+	</textarea>
+	<!--end of bannerTemplate 修改 15.03.23-->
+
+	<!--**************资讯***************-->
+	<!--start of infoTemplate -->
+	<textarea style="display:none" id="infoTemp">
+	<div class="onebrand cl">
+		<div class="brandtitle cl">
+			<img class="brandlogo fl" src="$cir_logo$"/>
+			<p class="fl font14 ff49b00 fwbold">$cir_name$</p>
+			<p class="fr f999 font12">$info_time$</p>
+		</div>
+		<div class="allpic">
+			<!--start of text-->
+			<p class="fwhite"><span class="font16">$info_title$</span><br />
+			<span class="font14"></span></p>
+			<!--end of text-->
+			<img class="Fendishow" src="$info_banner$"/>
+		</div>
+		<div class="cl">
+			<!--<div class="oval fl"><img class="love_comment" src="images/circle/love_gray.png"/><span class="f999 font14">37</span></div>-->
+			<div class="oval fl" info_id="$info_id$"><!-- <a href="http://seecsee.com/see/web/circle/infoDetail.html?info_id=$info_id$"> --><img class="love_comment" src="images/circle/comment.png"/><span class="f999 font14">$info_commentcount$</span><!-- </a> --></div>
+			<p class="fr fccc font14 showsign">$info_from$</p>
+		</div>
+	</div>
+	</textarea>
+	<!--end of infoTemplate -->
+
+	<!--**************lookbook资讯***************-->
+	<!--start of lookbookTemp-->
+	<textarea style="display:none" id="lookbookTemp">
+	<div class="onebrand cl">
+		<div class="brandtitle cl">
+			<img class="brandlogo fl" src="$cir_logo$"/>
+			<p class="fl font14 ff49b00 fwbold">$cir_name$</p>
+			<p class="fr f999 font12">$info_time$</p>
+		</div>
+		<div class="allpic cl">
+			<!--start of text-->
+			<p class="fwhite"><span class="font16">$info_title$</span><br />
+			<span class="font14"></span></p>
+			<!--end of text-->
+			<div class="fl zarashowl">
+				<img src="$info_img_left$"/>
+			</div>
+			<div class="fr zarashowr">
+				<img class="zara2" src="$info_img_top$"/>
+				<img id="zara3" class="zara3" src="$info_img_bottom$"/>
+			</div>
+		</div>
+		<div class="cl">
+			<!--<div class="oval fl"><img class="love_comment" src="images/circle/love_gray.png"/><span class="f999 font14">37</span></div>-->
+			<div class="oval fl" info_id="$info_id$"><!-- <a href="http://seecsee.com/see/web/circle/infoDetail.html?info_id=$info_id$"> --><img class="love_comment" src="images/circle/comment.png"/><span class="f999 font14">$info_commentcount$</span><!-- </a> --></div>
+			<p class="fr fccc font14 showsign">$info_from$</p>
+		</div>
+	</div>
+	</textarea>
+	<!--end of lookbookTemp-->
+		
+</div>
+<div class="cirfooter text_cen cl">
+	<div class="fl f999 home">
+		<div><img src="images/circle/home.png"/></div>
+		<p>首页</p>
+	</div>
+	<div class="fl">
+		<div><img src="images/circle/meili.png"/></div>
+		<p>美力圈</p>
+	</div>
+	<div class="addmid fwhite font44">
+		<div class="addin">+</div>
+	</div>
+	<div class="fr f999 mine">
+		<div><img src="images/circle/mine.png"/></div>
+		<p>我的</p>
+	</div>
+	<div class="fr f999">
+		<div><img src="images/circle/tip.png"/></div>
+		<p>消息</p>
+	</div>
+</div>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/swipe.js"></script>
+<script src="js/common.js"></script>
+<script src="js/main.js"></script>
+</html>

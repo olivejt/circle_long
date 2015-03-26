@@ -1,0 +1,46 @@
+@charset "utf-8";
+/*Css Document*/
+.main { width: 300px; height: auto; padding: 12px 0 12px 0;}
+
+.usershow { border-bottom: 1px solid #ccc; padding-bottom: 15px;}
+.usershow-title { height: 24px; width: 100%;}
+.qiudapei { background-color: #ff8f22; border-radius: 14px; color: white; font-size: 12px; padding: 6px 10px 6px 10px;}
+.money { margin: 10px 0 10px 0;}
+.answer { height: 16px; padding-right: 12px; margin-top: 5px; border-right: 1px solid #999; vertical-align: middle;}
+.answer div { height: 16px; line-height: 16px;}
+.clew { height: 16px; padding-left: 12px; margin-top: 5px; vertical-align: middle;}
+.clew div { height: 16px; line-height: 16px;}
+.icanfind { width: 60px; height: 25px; line-height: 25px; border-radius: 5px; background-color: #ffd800;}
+.praise { height: 14px; border-radius: 5px; background-color: white; padding: 5px 10px 6px 10px; margin-right: 5px;}
+
+.evebodyans { border-bottom: 1px solid #ccc; padding-bottom: 15px; padding-top: 15px;}
+.oneanswer { width: 148px; height: auto; background-color: white; margin-top: 10px; padding-bottom: 5px;}
+.oneanswer p { margin: 5px 5px 0 5px;}
+.anstitle { width: 133px; height: 24px; line-height: 24px; padding: 8px 5px 8px 10px;}
+
+.wishclew { padding-bottom: 15px; padding-top: 15px;}
+.select { margin-bottom: 10px;}
+.popularclew { width: 100%; position: relative;}
+.otherlabel2 { padding: 3px 4px 3px 3px; background-color: white; border-radius: 13px; margin-right: 5px; position: absolute;}
+.otherlabel2 * { vertical-align: middle;}
+.otherlabel2 .king { position: absolute; top: -5px; left: 0px;}/*皇冠*/
+.otherlabel2 .king img { width: 17px; height: 16px; }
+.charact { position: absolute; z-index: 999; top: 40px; left: 30px;}
+.addclew { height: 14px; padding: 10px 0 10px 0; background-color: white;}
+.addclew * { vertical-align: middle; }
+.evelabel { border-bottom: 1px solid #e2e2e2; padding-bottom: 10px; padding-top: 10px;}
+.evelabel p { margin-top: 5px;}
+.notfilling { padding: 5px 8px 5px 8px; background-color: #e6e6e6; border-radius: 12px;}
+.otherlabel { padding: 3px 4px 3px 3px; background-color: white; border-radius: 13px; margin-right: 5px; position: relative;}
+.otherlabel * { vertical-align: middle;}
+.otherlabel .king { position: absolute; top: -6px; left: -1px;}/*皇冠*/
+.otherlabel .king img { width: 17px; height: 16px; }
+.labelheadshow { width: 22px; height: 22px; margin-right: 2px;}
+.num { padding: 2px 6px 2px 6px; border-radius: 14px; margin: 2px 0 0 2px;}
+.otherclew { padding-top: 10px; padding-bottom: 10px; }
+.otherclew .font14 { margin-bottom: 5px;}
+.otherclew .eveotherclew { width: 100%; padding-top: 10px; padding-bottom: 10px; border-bottom: 1px solid #e2e2e2;}
+.otherclew .pic { width: 13%; position: relative;}
+.otherclew .pic .king { position: absolute; top: -8px; left: 0px; width: 17px; height: 16px;}/*皇冠*/
+.otherclew .pic .headshow { margin-left: 5px; }
+.otherclew .text { width: 72%; margin-top: 4px; font-size: 14px;}
